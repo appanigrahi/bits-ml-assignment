@@ -146,8 +146,6 @@ screenshots/dashboard_home.png
 
 ### Model Performance Heatmap
 
-screenshots/model_performance_heatmap.png
-
 screenshots/Complete_model_comparison_table.png
 ---
 
