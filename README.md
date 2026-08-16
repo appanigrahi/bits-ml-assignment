@@ -82,19 +82,11 @@ The Breast Cancer Wisconsin Dataset satisfies the assignment requirements becaus
 - It is suitable for comparing multiple classification algorithms.
 - It is widely used for machine learning benchmarking and evaluation.
 
----
-
 ## C. GitHub Repository Link
 
 GitHub Repository:
 
-To be updated after repository creation and code upload.
-
-Example format:
-
-https://github.com/<your-github-username>/<repository-name>
-
----
+https://github.com/appanigrahi/bits-ml-assignment
 
 ## D. Models Used and Performance Comparison
 
@@ -123,3 +115,39 @@ https://github.com/<your-github-username>/<repository-name>
 | Overall Winner | Logistic Regression was selected as the best-performing model because it achieved the highest Accuracy, AUC, Recall, F1 Score, and MCC values among all evaluated models. |
 
 ---
+
+
+---
+
+## F. Application Features
+
+The Streamlit application provides the following features:
+
+- Upload test dataset in CSV format
+- Select machine learning model
+- Generate predictions on uploaded data
+- View model evaluation metrics
+- Compare models using interactive charts
+- View classification report
+- Visualize confusion matrix heatmap
+- Analyze prediction distribution
+
+---
+
+## G. Screenshots
+
+### Streamlit Dashboard
+
+Add screenshot after deployment.
+
+### Model Comparison Dashboard
+
+Add screenshot after deployment.
+
+### Confusion Matrix Heatmap
+
+Add screenshot after deployment.
+
+### Classification Report
+
+Add screenshot after deployment.
