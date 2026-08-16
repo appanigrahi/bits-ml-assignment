@@ -147,6 +147,7 @@ screenshots\dashboard_home.PNG
 ### Model Performance Heatmap
 
 screenshots\Complete_model_comparison_table.PNG
+
 ---
 
 ### Classification Report
@@ -164,7 +165,6 @@ screenshots\confusion_matrix_heatmap.PNG
 ### Prediction Results
 
 screenshots\prediction_distribution.PNG
-
 
 ---
 
