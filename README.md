@@ -82,12 +82,14 @@ The Breast Cancer Wisconsin Dataset satisfies the assignment requirements becaus
 - It is suitable for comparing multiple classification algorithms.
 - It is widely used for machine learning benchmarking and evaluation.
 
+---
 ## C. GitHub Repository Link
 
 GitHub Repository:
 
 https://github.com/appanigrahi/bits-ml-assignment
 
+---
 ## D. Models Used and Performance Comparison
 
 ### Model Comparison Table
@@ -151,3 +153,12 @@ Add screenshot after deployment.
 ### Classification Report
 
 Add screenshot after deployment.
+
+
+---
+
+## H. Live Streamlit Application
+
+Streamlit Application Link:
+
+https://bits-ml-assignment.streamlit.app/

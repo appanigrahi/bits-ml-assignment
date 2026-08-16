@@ -183,84 +183,49 @@ if uploaded_file is not None and model is not None:
 # Load Model Comparison Metrics
 
 metrics_df = pd.read_csv("model_comparison_results.csv")
-st.subheader("📊 Model Comparison Dashboard")
-
-selected_metric = st.selectbox(
-    "Choose Metric for Comparison",
-    [
-        "Accuracy",
-        "AUC",
-        "Precision",
-        "Recall",
-        "F1",
-        "MCC"
-    ]
+comparison_df = metrics_df.sort_values(
+    by="Accuracy",
+    ascending=False
 )
 
-fig = px.bar(
-    metrics_df,
-    x="ML Model Name",
-    y=selected_metric,
-    color="ML Model Name",
-    title=f"{selected_metric} Comparison Across Models",
-    color_discrete_sequence=px.colors.qualitative.Bold
+st.subheader("📋 Complete Model Comparison Table")
+
+st.dataframe(
+    comparison_df,
+    use_container_width=True,
+    hide_index=True
 )
 
-fig.update_layout(
-    xaxis_title="Models",
-    yaxis_title=selected_metric,
-    template="plotly_dark"
+st.subheader("🌡️ Model Performance Heatmap")
+
+heatmap_df = metrics_df.set_index(
+    "ML Model Name"
 )
 
-st.plotly_chart(
-    fig,
-    use_container_width=True
+fig, ax = plt.subplots(figsize=(10, 5))
+
+sns.heatmap(
+    heatmap_df,
+    annot=True,
+    cmap="YlGnBu",
+    fmt=".4f",
+    linewidths=1,
+    linecolor="white",
+    cbar=True,
+    ax=ax
 )
 
-
-
-
-# Match dropdown names with CSV names
-
-selected_metrics = metrics_df[
-    metrics_df["ML Model Name"] == selected_model
-]
-
-st.subheader("Selected Model Metrics")
-
-col1, col2, col3 = st.columns(3)
-
-col1.metric(
-    "Accuracy",
-    selected_metrics.iloc[0]["Accuracy"]
+ax.set_title(
+    "Machine Learning Model Performance Comparison"
 )
 
-col2.metric(
-    "AUC",
-    selected_metrics.iloc[0]["AUC"]
-)
+plt.tight_layout()
 
-col3.metric(
-    "Precision",
-    selected_metrics.iloc[0]["Precision"]
-)
+st.pyplot(fig)
 
-col1, col2, col3 = st.columns(3)
 
-col1.metric(
-    "Recall",
-    selected_metrics.iloc[0]["Recall"]
-)
 
-col2.metric(
-    "F1 Score",
-    selected_metrics.iloc[0]["F1"]
-)
 
-col3.metric(
-    "MCC",
-    selected_metrics.iloc[0]["MCC"]
-)
 
 
 
