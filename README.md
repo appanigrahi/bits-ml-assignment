@@ -138,21 +138,34 @@ The Streamlit application provides the following features:
 
 ## G. Screenshots
 
-### Streamlit Dashboard
+### Streamlit Dashboard Home Page
 
-Add screenshot after deployment.
+screenshots/dashboard_home.png
 
-### Model Comparison Dashboard
+---
 
-Add screenshot after deployment.
+### Model Performance Heatmap
 
-### Confusion Matrix Heatmap
+screenshots/model_performance_heatmap.png
 
-Add screenshot after deployment.
+screenshots/Complete_model_comparison_table.png
+---
 
 ### Classification Report
 
-Add screenshot after deployment.
+screenshots/classification_report.png
+
+---
+
+### Confusion Matrix Heatmap
+
+screenshots/confusion_matrix_heatmap.png
+
+---
+
+### Prediction Results
+
+screenshots/prediction_distribution.png
 
 
 ---
