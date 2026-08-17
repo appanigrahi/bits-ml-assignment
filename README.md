@@ -146,26 +146,24 @@ The Streamlit application provides the following features:
 
 ### Streamlit Dashboard Home Page
 
-screenshots/dashboard_home.PNG
+![Streamlit Dashboard Home Page](screenshots/dashboard_home.PNG)
 
 ### Model Performance Heatmap
 
-![Model Performanceerformance_heatmap.PNG
+![Model Performanceerformance_heatmap](screenshots/model_performance_heatmap.PNG)
 
 ### Complete Model Comparison Table
 
-screenshots/Complete_model_comparison_table.PNG
+![Complete Model Comparison Table](screenshots/Complete_model_comparison_table.PNG)
 
 ### Classification Report
 
-screenshots/classification_report.PNG
 ![Classification Report](screenshots/classification_report.PNG)
-
 
 ### Confusion Matrix Heatmap
 
-![Confusion/confusion_matrix_heatmap.PNG
+![Confusion Matrix Heatmap](screenshots/confusion_matrix_heatmap.PNG)
 
 ### Prediction Results
 
-screenshots/prediction_distribution.PNG
+![Prediction Results](screenshots/prediction_distribution.PNG)
