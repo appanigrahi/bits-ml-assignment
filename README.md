@@ -142,25 +142,28 @@ The Streamlit application provides the following features:
 - Analyze prediction distribution
 
 ---
-
 ## H. Screenshots
 
 ### Streamlit Dashboard Home Page
 
-screenshots\dashboard_home.PNG
+screenshots/dashboard_home.PNG
 
 ### Model Performance Heatmap
 
-screenshots\Complete_model_comparison_table.PNG
+![Model Performanceerformance_heatmap.PNG
+
+### Complete Model Comparison Table
+
+screenshots/Complete_model_comparison_table.PNG
 
 ### Classification Report
 
-screenshots\classification_report.PNG
+screenshots/classification_report.PNG
 
 ### Confusion Matrix Heatmap
 
-screenshots\confusion_matrix_heatmap.PNG
+![Confusion/confusion_matrix_heatmap.PNG
 
 ### Prediction Results
 
-screenshots\prediction_distribution.PNG
+screenshots/prediction_distribution.PNG
