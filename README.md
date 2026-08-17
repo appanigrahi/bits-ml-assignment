@@ -150,6 +150,7 @@ The Streamlit application provides the following features:
 
 ### Model Performance Heatmap
 
+![Complete Model Comparison Table](screenshots/Complete_model_comparison_table.PNG)
 ![Model Performanceerformance_heatmap](screenshots/model_performance_heatmap.PNG)
 
 ### Complete Model Comparison Table
