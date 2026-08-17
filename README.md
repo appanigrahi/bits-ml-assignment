@@ -159,6 +159,8 @@ screenshots/Complete_model_comparison_table.PNG
 ### Classification Report
 
 screenshots/classification_report.PNG
+![Classification Report](screenshots/classification_report.PNG)
+
 
 ### Confusion Matrix Heatmap
 
