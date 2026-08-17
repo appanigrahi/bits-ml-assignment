@@ -121,7 +121,14 @@ https://github.com/appanigrahi/bits-ml-assignment
 
 ---
 
-## F. Application Features
+## F. Live Streamlit Application
+
+Streamlit Application Link:
+
+https://bits-ml-assignment.streamlit.app/
+
+---
+## G. Application Features
 
 The Streamlit application provides the following features:
 
@@ -136,35 +143,35 @@ The Streamlit application provides the following features:
 
 ---
 
-## G. Screenshots
+## H. Screenshots
 
 ### Streamlit Dashboard Home Page
 
-screenshots/dashboard_home.PNG
+screenshots/dashboard_home.png
 
 ---
 
 ### Model Performance Heatmap
 
-screenshots/Complete_model_comparison_table.PNG
+screenshots/Complete_model_comparison_table.png
 
 ---
 
 ### Classification Report
 
-screenshots/classification_report.PNG
+screenshots/classification_report.png
 
 ---
 
 ### Confusion Matrix Heatmap
 
-screenshots/confusion_matrix_heatmap.PNG
+screenshots/confusion_matrix_heatmap.png
 
 ---
 
 ### Prediction Results
 
-screenshots/prediction_distribution.PNG
+screenshots/prediction_distribution.png
 
 ---
 
