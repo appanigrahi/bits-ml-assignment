@@ -164,11 +164,3 @@ screenshots/confusion_matrix_heatmap.PNG
 ### Prediction Results
 
 screenshots/prediction_distribution.PNG
-
----
-
-## H. Live Streamlit Application
-
-Streamlit Application Link:
-
-https://bits-ml-assignment.streamlit.app/
